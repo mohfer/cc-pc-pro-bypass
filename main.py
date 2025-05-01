@@ -1,3 +1,6 @@
+# Script Dibuat Oleh @yogakokxd
+# Recode Boleh Jangan Lupa Credit:v
+
 import os
 import sys
 import time
@@ -7,7 +10,7 @@ import ctypes
 import webbrowser
 import datetime
 
-# Banner art
+# ascii nya ini brok
 def print_banner():
     banner = r"""
 
@@ -22,11 +25,11 @@ def print_banner():
     print(banner)
     print("CapCut Pro Bypasser By @yogakokxd")
 
-# MessageBox wrapper
+# box alert
 def show_alert(title, text):
     ctypes.windll.user32.MessageBoxW(0, text, title, 0x40)
 
-# Generate unique filename if exists
+# ubah nama jika udah ada nama yg sama
 def unique_filename(path):
     base, ext = os.path.splitext(path)
     counter = 1
@@ -36,11 +39,10 @@ def unique_filename(path):
         counter += 1
     return new_path
 
-# Clear screen (Windows)
+# clear
 def clear_screen():
     os.system('cls')
 
-# Main interactive loop
 def main():
     clear_screen()
     print_banner()
@@ -71,7 +73,7 @@ def main():
             print("[+] Processing Export... (Pre-processing 0%)")
             pct = 0
             while True:
-                # ambil hanya file .mp4 tanpa 'alpha'
+                # ambil hanya file .mp4 tanpa alpha
                 files = [f for f in glob.glob(os.path.join(comb_dir, '*.mp4')) if 'alpha' not in os.path.basename(f).lower()]
                 if files:
                     break
