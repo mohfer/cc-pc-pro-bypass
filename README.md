@@ -36,7 +36,8 @@ Script ini dibuat untuk membantu pengguna CapCut **menyimpan video hasil editan 
 
 ## 👨‍💻 Dibuat oleh
 
-**YogaxD**  📺 [YouTube Channel](https://www.youtube.com/c/YogaxD)
-**mohfer**  
+[YogaxD](https://www.youtube.com/c/YogaxD)
+
+[mohfer](https://mohfer.my.id)
 
 ---
